@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat Application</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--
+      //////////////////////////////////////////////////////////
+      //////////////////////////////////////////////////////////
+    -->
+
+    <section class="chat__section">
+      <div class="brand">
+        <img height="40" src="images/WhatsApp_icon.png" alt="Whatsapp Icon" />
+        <h1>Whatsapp</h1>
+      </div>
+      <div class="message__area"></div>
+      <div>
+        <textarea
+          id="textarea"
+          cols="30"
+          rows="1"
+          placeholder="Write a message..."
+        ></textarea>
+      </div>
+    </section>
+
+    <!--
+      //////////////////////////////////////////////////////////
+      //////////////////////////////////////////////////////////
+    -->
+    <script src="https://cdn.socket.io/4.7.4/socket.io.min.js"></script>
+    <script src="client.js"></script>
+  </body>
+</html>
